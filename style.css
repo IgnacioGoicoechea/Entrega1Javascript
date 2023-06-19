@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cabeza{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.subti{
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    margin: 10px;
+    align-content: center;
+}
+.card-header{
+    background-color: blue;
+    color: aliceblue;
+}
