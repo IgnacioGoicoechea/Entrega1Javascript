@@ -2,7 +2,7 @@ let saldo = 5000;
 
 
 function finalizar() {
-    alert("Fin del proceso: retire su tarjeta")
+    alert("Fin del proceso")
 }
 
 function depositarDinero(deposito) {
@@ -72,8 +72,9 @@ function validarClave(clave) {
         seleccionarOperacion()
     } else {
         alert("clave incorrecta");
+        finalizar()
     }
-    IngresarTarjeta()
+
 }
 
 

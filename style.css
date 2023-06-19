@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: rgb(97, 97, 187);
+}
 .cabeza{
     display: flex;
     flex-direction: column;
