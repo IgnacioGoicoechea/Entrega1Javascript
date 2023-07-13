@@ -29,3 +29,14 @@ body{
     background-color: blue;
     color: aliceblue;
 }
+.imagenes{
+    display: flex;
+    display: flex;
+    justify-content: center;
+
+}
+img{
+    
+    width: 200px;
+    height: 350px;
+}

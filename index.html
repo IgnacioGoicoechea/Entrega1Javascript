@@ -1,45 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <title>CórdobaClimbs</title>
+    <meta name="description" content="Sitio web orientado a promover la escalada en Córdoba Argentina">
+    <meta name="keywords" content="ESCALADA, DEPORTIVA, CÓRDOBA, DEPORTE, EXTREMO,CLASICA, BOULDER, CBAX">
 
-    <title>Cajero Del Goico</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./images/icons8-bouldering-skin-type-2-96.png" type="image/x-icon">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS Main -->
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 
 <body>
     <header>
-        <div class="cabeza">
-            <h1>Cajero el Goico </h1>
-            <img src="./imagen/logo.png" class="card" alt="logo">
-        </div>
-
-    </header>
-    <main class="cuerpo">
-
-        <h2 class="subti"> Bienvenido, que accion desea realizar?</h2>
-        <div class="gallery">
-            <div class="card" style="width: 18rem;">
-                <div class="card-header">
-                    Selecione su opción
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La previa</a>
+                        </li>
+                    </ul>
                 </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Retirar Dinero</li>
-                    <li class="list-group-item">Consultar saldo</li>
-                    <li class="list-group-item">Depositar Dinero</li>
-                    <li class="list-group-item">Salir</li>     
-                </ul>
             </div>
+        </nav>
+    </header>
 
+    <!-- Banner inicio -->
+    <section>
+        <div class="contenedor-inicio">
+            <div class="row">
+                <div class="imagenes">
+                    <img src="./imagen/absolut_nueva_bot.webp"  alt="wodka">
+                    <img src="./imagen/D_NQ_NP_950861-MLA44885730605_022021-O.webp" alt="fernet ">
+                </div>
+            </div>
+            <div class="contenedor-texto">
+                <p>
+                    Bienvenido a nuestra página web 
+                </p>                
+            </div>
         </div>
-    </main>
-    <script defer src="./main.js"></script>
-  
-</body>
+    </section>
 
+    <!-- Footer -->
+    <footer>
+        <p>Todos los derechos reservados © 2023</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+    <!-- Archivo JS -->
+    <script src="./main.js"></script>
+</body>
 </html>
