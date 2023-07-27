@@ -1,0 +1,97 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.basic{
+    font-family: 'Urbanist', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+.bg{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #000000, #1a1a1a, #4b4b4b);
+    background-size: cover;
+}
+
+.titulo{
+    color:  #250bdf;
+    font-size: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio{
+    color: #40f2fe;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.seleccionador{
+    width: 200px;
+    color: black;
+    margin: auto;
+    padding: 10px;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+#consultar{
+    width: 200px;
+    height: 50px;
+    background-color: #0f09d0;
+    margin: auto;
+    margin-top: 25px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: white;
+    &:hover{
+        background-color:#40f2fe;
+        color: black;
+        transform: scale(1.05);
+        transition: .2s; }
+    }
+
+#valor{
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: auto;
+    margin-top: 90px;
+    &:hover{
+        color: black;
+        background-color: #40f2fe;
+        transform: scale(1.05);
+        transition: .5s;
+    }
+}
+
+.detalle{
+    margin: auto;
+    font-family: 'Tajawal', sans-serif;
+    font-size: 35px;
+    color: white;
+}
